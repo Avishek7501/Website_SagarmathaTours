@@ -1,0 +1,491 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.header{
+    background-image: url(../images/KTM-Durbar-Square.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.galleryheader{
+    background-image:url(../images/everest.webp)!important;
+}
+
+.header-menu{
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.5);
+}
+.logo{
+    width: 20%;
+    padding: 10px;
+}
+.logo img{
+    width: 35%;
+    padding: 7px;
+    margin-left: 100px;
+}
+.menu{
+    margin-top: 5px;
+    display: flex;
+    width: 80%;
+}
+.main-navigation{
+    width: 80%;
+
+    
+}
+
+.main-navigation ul{
+    display: flex;
+    text-align: left;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.main-navigation ul li a{
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 18px;
+    color:#faf9f9;
+    font-weight: bold;
+}
+
+.main-navigation ul li a:hover{
+    background-color: #214770;
+    color: white;
+}
+
+.socialmedia-links{
+    width: 25%;
+    padding: 10px 20px;
+    text-align: right;
+    margin-top: 30px;
+
+    
+}
+
+.socialmedia-links a{
+    font-size: 30px;
+    color:white;
+    margin: 0px 10px;
+}
+.monument-name{
+    text-align: center;
+    font-size: 25px;
+    font-family:FreeMono, monospace;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.content-container{
+    padding: 10px 30px;
+    display: flex;
+    height: 100%;
+}
+
+.content{
+    width: 80%;
+    padding: 50px 60px;
+    text-align: justify;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #040E27;
+
+}
+.content h2{
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+
+}
+.sidebar{
+    width: 25%;
+    padding: 50px 10px;
+    margin-top:20px;
+    background-color: #1b263b;
+    
+}
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    height:100%;
+    text-align: center;
+}
+.sidebar ul h2{
+    background-color: white;
+}
+.sidebar ul li{
+    padding: 5px;
+}
+.sidebar ul li a{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.sidebar ul li a:hover{
+    background-color: #e0e1dd;
+    color: black;
+}
+.footer{
+    height: 500px;
+    background-color: #1b263b;
+    color: #AAB1B7;
+    text-align: center;
+}
+.listgroup{
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    font-family: "Rubik",sans-serif;
+    line-height: 28px;
+
+}
+.listgroup ul{
+    list-style-type: none;
+}
+
+.groupname{
+    margin: 80px 100px;
+    width: 33%;
+}
+.footermenu{
+    margin: 90px 100px 80px 100px;
+    width: 33%;
+}
+.footermenu a{
+    color:#AAB1B7;
+    text-decoration: none;
+
+}
+.query{
+    margin:80px 100px;
+    width: 33%;
+
+}
+textarea{
+    border-radius: 6px;
+}
+#btn{
+    background-color: #faf9f9;
+    border-radius: 4px;
+}
+.collegelink a{
+    color:#AAB1B7;
+    text-decoration: none;
+    text-align: center;
+}
+.collegelink a:hover{
+    color: red;
+}
+.copyright{
+    padding: 7px;
+}
+
+.gridcontainer{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 40px;
+    align-content: center;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.griditems{
+    background-color:ghostwhite;
+    padding: 15px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 5px 6px 3px rgba(66, 65, 66, 0.8);
+
+}
+
+.imgdiv img{
+        width: 100px;
+        height: 100px;
+        border-radius: 360px;
+    
+}
+.studentdetail a{
+    text-decoration: none;
+    color:black;
+}
+
+.studentdetail a:hover{
+    color:red;
+}
+
+.popular_packages{
+    background: linear-gradient(to right bottom, #40c9ff,#e81cff);
+
+}
+
+.popular_table table{
+    width:100%;
+}
+
+.popular_table{
+   
+}
+
+.Popular_wrap{
+    width: 300px;
+    /* border: 1px solid black; */
+    box-shadow: 5px 6px 3px rgba(66, 65, 66, 0.8);
+    border-radius: 3px;
+    background-color: #ccd5ae;
+
+
+}
+
+.Popular_wrap button{
+    border: none;
+    padding: 10px;
+    background-color: #AAB1B7;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+
+.Popular_wrap button:hover{
+    background-color: #a4a358;
+}
+.pop_img{
+    width: 300px;
+    height: 200px;
+}
+.popular_table{
+    
+    margin-top: 30px;
+    padding:15px 10px ;
+    height: 100%;
+}
+.popular_packages h2{
+    text-align: center;
+}
+
+.popular_table table td{
+    width: 22%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.Popular_wrap .pop_img img{
+    width: 100%;
+}
+
+
+.videodiv video{
+    height: 70%;
+    width: 1500px;
+}
+
+.gallery{
+
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.gallery table td{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.gallery-imagecontainer .image img{
+    width: 100%;
+}
+
+.gallery-imagecontainer{
+    width: 350px;
+
+}
+
+.gallery-imagecontainer h3{
+    font-family: "rubik" sans-serif ;
+    font-size: 25px;
+}
+.gallery-video{
+    padding: 20px;
+    height: 100%;
+    background-color:#e0e1dd;
+}
+
+.gallery-video h2{
+    font-family: Brush Script MT, Brush Script Std, cursive	;
+    font-size: 40px;
+    text-align: center;
+    color:#214770;
+}
+.about{
+    padding: 20px 10px;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #040E27;
+    background-color:#e9edc9;
+    
+}
+.about h2{
+    font-family: Brush Script MT, Brush Script Std, cursive	;
+    font-size: 35px;
+    text-align: center;
+    color: #040E27;
+}
+
+.about h3{
+    font-family: Brush Script MT, Brush Script Std, cursive	;
+    font-size: 35px;
+    text-align: center;
+    color: #040E27;
+}
+ 
+
+.about ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+}
+
+.about ul li{
+    padding: 15px 0px;
+    border:1px solid white;
+    background-color: #ccd5ae;
+}
+.msg{
+    font-family:URW Chancery L, cursive	;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.package_info{
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    color: #040E27;
+    background-color:#e9edc9;
+    padding: 40px;
+}
+
+.package_info h2{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.package-container{
+    display:grid;
+    column-gap: 30px;
+    row-gap: 40px;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+}
+.package-item{
+    background-color:ghostwhite;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 5px 6px 3px rgba(66, 65, 66, 0.8);
+
+}
+
+.package-details{
+    height: 150px;
+}
+
+.package-confirm{
+    height: 40px;
+}
+
+.package-confirm button{
+    margin-top:10px;
+    width:100%;
+    height:30px;
+    background-color: green;
+    border:none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.package-item .package-image img{
+    width:400px;
+    height: 250px;
+}
+
+
+.booking-form {
+    margin: 0 auto;
+    padding: 40px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 900px;
+
+}
+
+.booking-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.booking-form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+.booking-form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
